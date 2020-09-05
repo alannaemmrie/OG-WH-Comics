@@ -1,0 +1,306 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    text-align: center;
+    background-color: rgb(227, 234, 255);
+    margin: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    margin: auto;
+    max-width: 1400px;
+}
+
+.c1{
+    display: flex;
+    background-color: gold;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    height: 15vh;
+    text-align:center;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.bannerLink{
+    color: navy;
+}
+
+.logo{
+    flex: 0 1 20vw;
+    width: 40%
+}
+
+#logoPic{
+    width: 20vh;
+    height: 20vh;
+    align-items: center;
+    margin-top: -.5rem;
+    padding: 1rem .5rem;
+}
+
+.headerText{
+    flex: 0 1 80vw;
+    color: navy;
+    font-family: "Arial Black", Gadget, sans-serif;
+    line-height: 2.5rem;
+    width: 60%;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+h1.headerText{
+    display: inline-block;
+    font-size: 5vw;
+}
+
+.navBarLinks{
+    color: navy;
+    padding-top: .3rem;
+    display:inline-flex;
+    align-items: center;
+    text-align: center;
+    margin:0;
+}
+
+.navBarLinks:hover{
+    color: darkolivegreen;
+}
+
+.pageName{ /*aka h2.box1*/
+    font-size: 1.5rem; 
+    display: inline-block;
+    color: navy;
+    padding: .5rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.box1{ /*nav bar*/
+    flex: 0 1 4vh;
+    background-color: gold;
+    border-radius: 2rem;
+    text-align:center;
+    align-items: center;
+    order: 1;
+    margin-top: .3rem;
+    padding-top: 1vh;
+    padding-bottom: .7vh;
+    border: solid;
+    border-color: navy;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.alphaBox1{
+    margin: 1rem;
+}
+
+.letter{
+    color:navy;
+    font-size: 1.3rem;
+}
+
+.pageName{
+    margin:0;
+
+}
+
+.seriesName{
+    font-size: 1rem;
+}
+
+.series{
+    align-items:center;
+    margin:auto;
+}
+
+.comics{
+    display:inline-block;
+    margin:0;
+    padding-right:1.2rem;
+}
+
+a.alphaLink:visited{
+    color:blue;
+}
+
+a.alphaLink:hover{
+    color:darkolivegreen;
+}
+
+
+/*Screen Sizes 700px-1100px.  About tablet size*/
+@media(min-width: 641px) and (max-width: 1007px){
+
+    body{
+        margin: 1.5rem;
+    }
+
+    .c1{
+        height: 16vh;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+    }
+
+    .box1{
+        align-items:center;
+        flex: 0 1 4vh;
+        margin:auto;
+        padding: .7rem;
+        border: solid;
+        border-color: navy;
+    }
+
+    .headerText{
+        font-size: 1.6rem;
+    }
+
+    .pageName{
+        margin: 1rem;
+        margin-bottom: -2rem;
+        font-size: 1.7rem;
+    }
+
+    .box2{
+        font-size: 1.3rem;
+    }
+
+    .navBarLinks{
+        padding-top: .5rem;
+        display:inline-block;
+        line-height: 1rem;
+        line-break: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: .7rem;
+        font-size: 1.2rem;
+    }
+
+    #logopic{
+        padding-left: 2vw;
+        width: 25vh;
+        height: 25vh;
+    }
+
+    .alphaBox1{
+        font-size:1.3rem;
+    }
+
+    .letter{
+        font-size: 1.6rem;
+    }
+
+    .seriesName{
+        font-size: 1.5rem;
+    }
+
+    .comics{
+        font-size: 1.5rem;
+    }
+}
+
+/*laptop size*/
+@media(min-width: 1007px){
+
+    body{
+        margin: 1.5rem;
+    }
+
+    .c1{
+        height: 16vh;
+        margin-top: 9vh;
+    }
+
+    .c2{
+        display:flex;
+        flex-direction: row;
+        flex-basis: 100vw;
+        align-items:center;
+        text-align:center;
+    }
+
+    .headerText{
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+
+    .pageName{
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    .navBarLinks{
+        display:list-item;
+        list-style-type: none;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        align-items: center;
+        margin:auto;
+    }
+
+    .box1{ /*nav bar*/
+        flex-basis: 25vw;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        padding-top: .7rem;
+        padding-bottom: .5rem;
+        margin-top: 80vh;
+        height: 25rem;
+        position: fixed;
+        max-width: 8vw;
+        margin-left:3.5rem;
+    } 
+
+    #logoPic{
+        padding-left: 5vw;
+        width: 30vh;
+        height: 30vh;
+    }
+
+    .homePic{
+        width: 10rem;
+        height: 17rem;
+        padding: .2rem;
+        
+    }
+
+    .c3{
+        margin-left:15rem;
+    }
+
+    .letter{
+        font-size: 2rem;
+    }
+
+    .seriesName{
+        font-size: 1.5rem;
+    }
+
+    .alphaBox1{
+        margin-top: 3rem;
+        font-size: 1.3rem;
+    }
+
+    .galHeader{
+        text-align:center;
+        align-items:center;
+    }
+
+    .comics{
+        align-items: center;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
