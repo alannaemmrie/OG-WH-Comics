@@ -1,4 +1,4 @@
-# Warthawg Comics
+<a href = www.warthawgcomics.com># Warthawg Comics </a>
 
 A website for a small business to buy/sell comics, and interact with their customers. Built with HTML and CSS.
 
