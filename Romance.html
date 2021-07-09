@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-
+<!--resizing website to be viewport aware. using flexbox! mobile first design.-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content = "ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--This links the file to the css stylesheet-->
     <link rel = "Stylesheet" type = "text/css" href = "css/publisherStyle.css"> 
     <title>Romance</title>
 </head>
@@ -15,9 +16,9 @@
 
         <!--container 1-->
         <div class="c1"> <!--website header-->
-            <a class = "bannerLink" href = "index.html"> 
+            <a class = "bannerLink" href = "index.html" id = "landing">
             <div class="logo"> <!--logo in header. "box 1"-->
-                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo"> 
+                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo"> <!--add dimensions! in style?-->
             </div>
             </a>
 
@@ -29,7 +30,7 @@
         </div>
 
         <!--container 2-->
-        <div class="c2"> <!--container 2; contains nav bar, main text. -->
+        <div class="c2"> <!--container 2; contains nav bar, main text.  homepage will have three boxes-->
             <div class="box1"> <!--navbar-->
                 <a href="index.html" class="navBarLinks">Home</a> &nbsp;&nbsp;
                 <a href="Catalog.html" class="navBarLinks">Catalog</a> &nbsp;&nbsp;
@@ -79,7 +80,94 @@
 
             <!--This starts the catalog-->
 
-        </div>  
+
+            <h2 class = "letter" id = "F">F</h2>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Falling in Love</h3> <!--series name-->
+                <div class="comics">
+                    136	F/VF		<br>
+                    137	VF		<br>
+                </div>
+            </div>
+
+            <h2 class = "letter" id = "H">H</h2>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Heart Throbs</h3> <!--series name-->
+                <div class="comics">
+                    96	F/VF	Puppet C	<br>
+                    113	FN	classic c	<br>
+                    127	F/VF		<br>
+                    135	F/VF	Giant	<br>
+                    140	VF	Giant	<br>    
+                </div>
+            </div>
+
+            <h2 class = "letter" id = "O">O</h2>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Our Love Story</h3> <!--series name-->
+                <div class="comics">
+                    3	VF		<br>
+                    5	VF+	Steranko	<br>
+                </div>
+            </div>
+
+            <h2 class = "letter" id = "S">S</h2>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Secret Hearts</h3> <!--series name-->
+                <div class="comics">
+                    32	FN		<br>
+                </div>
+            </div>
+
+            <h2 class = "letter" id = "Y">Y</h2>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Young Love</h3> <!--series name-->
+                <div class="comics">
+                    69	FN	Giant	<br>
+                    69	VG/F	Giant	<br>
+                    69	VG	Giant	<br>
+                    81	VG/F		<br>
+                    124	CGC 9.2	Giant	<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Young Romance</h3> <!--series name-->
+                <div class="comics">
+                    153	VF		<br>
+                    178	FN	Giant	<br>
+                </div>
+            </div>
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>  <!--make sure you've pasted everything inside here!-->
+
+        <div class="c4"> <!--top button-->
+            <a href = "#landing" class="topButton" >Top of Page</a>
+        </div>
+
     </main> 
 </body>
+
+
 </html>

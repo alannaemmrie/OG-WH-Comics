@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+<!--resizing website to be viewport aware. using flexbox! mobile first design.-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content = "ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--This links the file to the css stylesheet-->
     <link rel = "Stylesheet" type = "text/css" href = "css/publisherStyle.css"> 
     <title>Archie</title>
 </head>
@@ -13,10 +15,10 @@
     <main> 
 
         <!--container 1-->
-        <div class="c1"> <!--website header-->
-            <a class = "bannerLink" href = "index.html"> 
+        <div class="c1"> <!--website header--> 
+            <a class = "bannerLink" href = "index.html" id = "landing"> 
             <div class="logo"> <!--logo in header. "box 1"-->
-                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo"> 
+                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo"> <!--add dimensions! in style?-->
             </div>
             </a>
 
@@ -28,7 +30,7 @@
         </div>
 
         <!--container 2-->
-        <div class="c2"> <!--container 2; contains nav bar, main text.-->
+        <div class="c2"> <!--container 2; contains nav bar, main text.  homepage will have three boxes-->
             <div class="box1"> <!--navbar-->
                 <a href="index.html" class="navBarLinks">Home</a> &nbsp;&nbsp;
                 <a href="Catalog.html" class="navBarLinks">Catalog</a> &nbsp;&nbsp;
@@ -81,12 +83,69 @@
             <h2 class = "letter" id = "A">A</h2>
 
             <div class = "seriesLog">
+                <h3 class = "seriesName">Adventures of the Fly</h3> <!--series name-->
+                <div class="comics">
+                    13	G/VG		<br>
+                    21	VG		<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Adventures of the Jaguar</h3> <!--series name-->
+                <div class="comics">
+                    2	FN		<br>
+                    4	VG		<br>
+                </div>
+            </div>
+            
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Adventure With the Brothers</h3> <!--series name-->
+                <div class="comics">
+                    Cult Escape	VF	Christian	<br>
+                    Smashing Smugglers Ring	VF	Christian	<br>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie</h3> <!--series name-->
+                <div class="comics">
+                    40	G+		<br>
+                    50	CGC 4.5	Classic Betty Cvr	<br>
+                    116	F/VF		<br>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie and Mr Weatherbee</h3> <!--series name-->
+                <div class="comics">
+                    VG/F	Christian	<br>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie as Pureheart Powerful</h3> <!--series name-->
+                <div class="comics">
+                    1	VG		<br>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie at Riverdale High</h3> <!--series name-->
+                <div class="comics">
+                    1	FN		<br>
+            </div>
+
+            <div class = "seriesLog">
                 <h3 class = "seriesName">Archie Giant Series Magazine</h3> <!--series name-->
                 <div class="comics">
                     195	F/VF	Christmas Issue	<br>
+                    204	VF		<br>
                     207	FN	Sabrina	<br>
                 </div>
-            </div>  
+            </div> 
+            
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie Meets Kiss</h3> <!--series name-->
+                <div class="comics">
+                    627-630	NM		<br>
+                </div>
+            </div>
 
 
             <div class = "seriesLog">
@@ -97,9 +156,92 @@
             </div>
 
             <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Clean Slate</h3> <!--series name-->
+                <div class="comics">	
+                    FN	Christian	<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Date Book</h3> <!--series name-->
+                <div class="comics">	
+                    FN	Christian	<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
                 <h3 class = "seriesName">Archie's Festival</h3> <!--series name-->
                 <div class="comics">	
                     VF+	Christian	<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Girls Betty and Veronica</h3> <!--series name-->
+                <div class="comics">
+                    23	VG/F		<br>
+                    26	G/VG		<br>
+                    49	VG/F		<br>	
+                    105	G/VG		<br>
+                    320	CBCS 9.4	1st Cheryl Blossom	<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Girls Betty and Veronica Annual</h3> <!--series name-->
+                <div class="comics">	
+                    2	G/VG	Giant	<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Love Scene</h3> <!--series name-->
+                <div class="comics">	
+                    VG/F	Christian	<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Madhouse</h3> <!--series name-->
+                <div class="comics">	
+                    8	FN+		<br>
+                </div>
+            </div>
+
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's One Way</h3> <!--series name-->
+                <div class="comics">	
+                    VF	Christian	<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Pal Jughead</h3> <!--series name-->
+                <div class="comics">	
+                    2	G/VG		<br>
+                    20	VG/F		<br>
+                    21	VG/F		<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Pal Jughead Annual</h3> <!--series name-->
+                <div class="comics">	
+                    2	G/VG	Giant	<br>
+                </div>
+            </div>
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Pals 'N' Gals</h3> <!--series name-->
+                <div class="comics">	
+                    2	VG/F	Giant	<br>
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Archie's Parables</h3> <!--series name-->
+                <div class="comics">	
+                    VG/F	Christian	<br>
                 </div>
             </div>
 
@@ -124,7 +266,165 @@
 
                 </div>
             </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Chilling Adventures in Sorcery</h3> <!--series name-->
+                <div class="comics">
+                    1	VF	Sabrina	<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Fly Girl</h3> <!--series name-->
+                <div class="comics">
+                    39	VG		<br>
+
+                </div>
+            </div>
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Gospel Blimp</h3> <!--series name-->
+                <div class="comics">
+                    FN	Christian	<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Jesus</h3> <!--series name-->
+                <div class="comics">
+                    NM-	Christian	<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Jughead's Folly</h3> <!--series name-->
+                <div class="comics">
+                    1	CGC 5.5	Scarce 1960	<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Katy Keene</h3> <!--series name-->
+                <div class="comics">
+                    20	VG/F		<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Laugh</h3> <!--series name-->
+                <div class="comics">
+                    38	FN-		<br>
+                    91	VG/F		<br>
+                    93	VG/F		<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Life With Archie</h3> <!--series name-->
+                <div class="comics">
+                    49	VG		<br>
+                    53	VG		<br>
+                    54	VG		<br>
+                    57	VG/F		<br>
+                    62	VG/F		<br>
+
+                </div>
+            </div>
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Little Archie</h3> <!--series name-->
+                <div class="comics">
+                    56	F/VF		<br>
+                    69	F/VF		<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Mighty Comics</h3> <!--series name-->
+                <div class="comics">
+                    43	VG/F		<br>
+                    44	FN		<br>
+                    45	FN		<br>
+                    46	FN		<br>
+
+                </div>
+            </div>
+            
+            <div class = "seriesLog">
+                <h3 class = "seriesName">On the Road Andrae Grouch</h3> <!--series name-->
+                <div class="comics">
+                    VF/NM	Spire	<br>
+                    F/VF	Christian	<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Paul</h3> <!--series name-->
+                <div class="comics">
+                    NM-		Christian	<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Sabrina</h3> <!--series name-->
+                <div class="comics">
+                    3	VG/F		<br>
+                    5	VG/F		<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Suzie</h3> <!--series name-->
+                <div class="comics">
+                    79	VG		<br>
+
+                </div>
+            </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Up From Harlem</h3> <!--series name-->
+                <div class="comics">
+                    VF/NM	Christian	<br>
+
+                </div>
+            </div>
+
+          
+    
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div> <!--make sure you've pasted everything inside here!-->
+
+            
+
+        <div class="c4"> <!--top button-->
+            <a href = "#landing" class="topButton" >Top of Page</a>
         </div>
+
     </main> 
 </body>
+
+
 </html>

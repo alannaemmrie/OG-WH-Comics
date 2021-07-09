@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+<!--resizing website to be viewport aware. using flexbox! mobile first design.-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content = "ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--This links the file to the css stylesheet-->
     <link rel = "Stylesheet" type = "text/css" href = "css/WHstyle.css"> 
-    <title>Index/Homepage</title>
+    <title>Home</title>
 </head>
 <body>
 
@@ -15,11 +18,11 @@
         <div class="c1"> <!--website header-->
             <a class = "bannerLink" href = "index.html"> 
             <div class="logo"> <!--logo in header. "box 1"-->
-                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo">
+                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo"> <!--add dimensions! in style?-->
             </div>
             </a>
 
-            <div class="headerText"> <!--website name. "box 2"-->
+            <div class="headerText"> <!--actual website name. "box 2"-->
                 <a class = "bannerLink" href = "index.html"><h1>WartHawg Comics</h1></a>
             </div>
         
@@ -27,7 +30,7 @@
         </div>
 
         <!--container 2-->
-        <div class="c2"> <!--container 2; contains nav bar, main text.-->
+        <div class="c2"> <!--container 2; contains nav bar, main text.  homepage will have three boxes-->
             <div class="navWrapper">
                 <div class="box1"> <!--navbar-->
                     <a href="index.html" class="navBarLinks">Home</a> &nbsp;&nbsp;
@@ -66,15 +69,19 @@
 
         </div>  <!--end landing page-->
 
-        <div class="c3"> <!--homepage pictures-->
-            <div class="box3">
+        <div class="c3"> <!--the images-->
+            <div class="box3"> <!--pictures located on homepage. sizing in style-->
                 <img src="HomepageImages/Homepage1.JPG" alt="homepagepic" class="homePic">
                 <img src="HomepageImages/Homepage2.JPG" alt="homepagepic" class="homePic">
                 <img src="HomepageImages/Homepage3.JPG" alt="homepagepic" class="homePic">
                 <img src="HomepageImages/Homepage4.JPG" alt="homepagepic" class="homePic">
                 <img src="HomepageImages/Homepage5.JPG" alt="homepagepic" class="homePic">
             </div>
+
         </div>
+
     </main> 
 </body>
+
+
 </html>

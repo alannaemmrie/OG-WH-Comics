@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-
+<!--resizing website to be viewport aware. using flexbox! mobile first design.-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content = "ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--This links the file to the css stylesheet-->
     <link rel = "Stylesheet" type = "text/css" href = "css/publisherStyle.css"> 
     <title>Gold Key/Whitman</title>
 </head>
@@ -15,9 +16,9 @@
 
         <!--container 1-->
         <div class="c1"> <!--website header-->
-            <a class = "bannerLink" href = "index.html"> 
+            <a class = "bannerLink" href = "index.html" id = "landing">
             <div class="logo"> <!--logo in header. "box 1"-->
-                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo">
+                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo"> <!--add dimensions! in style?-->
             </div>
             </a>
 
@@ -29,7 +30,7 @@
         </div>
 
         <!--container 2-->
-        <div class="c2"> <!--container 2; contains nav bar, main text.-->
+        <div class="c2"> <!--container 2; contains nav bar, main text.  homepage will have three boxes-->
             <div class="box1"> <!--navbar-->
                 <a href="index.html" class="navBarLinks">Home</a> &nbsp;&nbsp;
                 <a href="Catalog.html" class="navBarLinks">Catalog</a> &nbsp;&nbsp;
@@ -75,11 +76,204 @@
                 <a class = "alphaLink" href = "#Z" >Z</a> 
             </div>
 
-            <h2 class="pageName">Gold Key/Whitman</h2>
+        <h2 class="pageName">Gold Key/Whitman</h2>
 
             <!--This starts the catalog-->
+
+            <div class = "seriesLog">
+        <h3 class = "seriesName">Beetle Bailey</h3> <!--series name-->
+            <div class="comics">
+                49	VG/F		<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Brothers Grimm</h3> <!--series name-->
+            <div class="comics">
+                1962	VG		<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Checkmate</h3> <!--series name-->
+                <div class="comics">
+                    1	VG/F	Photo Cvr	<br>
+                    2	FN	Photo Cvr	<br>
+                </div>
+            </div>
+
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Hawaiian Eye</h3> <!--series name-->
+                <div class="comics">
+                    1	F/VF	Photo Cvr	<br>
+                </div>
+            </div>
+
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Honey West</h3> <!--series name-->
+                <div class="comics">
+                    1	VG	Photo Cvr	<br>
+                </div>
+            </div>
+
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Invaders  (TV)</h3> <!--series name-->
+                <div class="comics">
+                    2	FN	Photo Cvr	<br>
+                    3	VG/F	Variant Photo Cvr	<br>
+                    4	FN	Photo Cvr	<br>
+                </div>
+            </div>
+
+        <div class = "seriesLog">
+        <h3 class = "seriesName">I Spy</h3> <!--series name-->
+            <div class="comics">
+                1	VF-		<br>
+                1	GD	Photo Cvr	<br>
+                3	F/VF		<br>
+            </div>
+        </div>
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Magnus Robot Fighter</h3> <!--series name-->
+            <div class="comics">
+                1	VG	1962	<br>
+            </div>
+        </div>
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Mickey Mouse</h3> <!--series name-->
+            <div class="comics">
+                244	NM	Giant	<br>
+            </div>
+        </div>
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Mickey's Twice Upon a Christmas</h3> <!--series name-->
+            <div class="comics">
+                NM	Gemstone	<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Mod Wheels</h3> <!--series name-->
+            <div class="comics">
+                1	NM-		<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Munsters</h3> <!--series name-->
+                <div class="comics">
+                    1	VG	Photo Cvr	<br>
+                </div>
+            </div>
+
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Peanuts</h3> <!--series name-->
+            <div class="comics">
+                1	VF		<br>
+                FC 968	VG/F		<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Scooby Doo</h3> <!--series name-->
+                <div class="comics">
+                    13	FN		<br>
+                    29	F/VF		<br>
+                </div>
+            </div>
+
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Secret Agent</h3> <!--series name-->
+            <div class="comics">
+                1	FN	Photo Cover	<br>
+                1	GD+	Photo Cover	<br>
+                2	F/VF	Photo Cover	<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Star Trek</h3> <!--series name-->
+            <div class="comics">
+                1	FN+		<br>
+                1	VG/F		<br>
+                1	G/VG		<br>
+                52	VF-		<br>
+                53	VF+		<br>
+                56	F/VF		<br>
+                57	VF/NM		<br>
+                60	VF		<br>
+            </div>
+        </div>
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Supercar</h3> <!--series name-->
+            <div class="comics">
+                3	G/VG		<br>
+                4	G/VG		<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Thriller (Boris Karloff)</h3> <!--series name-->
+            <div class="comics">
+                1	F/VF	Giant	<br>
+            </div>
+        </div>
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Twilight Zone</h3> <!--series name-->
+            <div class="comics">
+                9	VG		<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Walt Dsney's Christmas Parade (2003)</h3> <!--series name-->
+            <div class="comics">
+                1	NM		<br>
+                2	NM		<br>
+                3	NM		<br>
+            </div>
+        </div>
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Walt Kelly's Christmas Classics</h3> <!--series name-->
+            <div class="comics">
+                1	NM		<br>
+            </div>
+        </div>
+        <div class = "seriesLog">
+        <h3 class = "seriesName">Yellow Submarine Beatles</h3> <!--series name-->
+            <div class="comics">
+                NN	CGC 9.2	W/Poster	<br>
+                NN	CBCS 7.5	W/Poster	<br>
+            </div>
+        </div>
+
+
+
+
             
-        </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>  <!--make sure you've pasted everything inside here!-->
+
+            
+        <div class="c4"> <!--top button-->
+            <a href = "#landing" class="topButton" >Top of Page</a>
+        </div>
+
+
     </main> 
 </body>
+
+
 </html>

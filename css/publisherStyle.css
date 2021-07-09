@@ -135,6 +135,42 @@ a.alphaLink:hover{
 }
 
 
+.c4{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-basis: 400vw;
+    text-align: center;
+    margin:0;
+}
+
+a.topButton:visited{
+    color: navy;
+}
+a.topButton:hover{
+    color: olive;
+}
+
+.topButton{
+    background-color: gold;
+    border-radius: 1.3rem;
+    text-align:center;
+    align-items: right;
+    margin-top: .5rem;
+    padding-top: 1vh;
+    padding-bottom: .7vh;
+    padding-left: .7vh;
+    padding-right: .7vh;
+    border: solid;
+    border-color: navy;
+    position: fixed;
+    top: 18rem;
+    font-size:.8rem;
+   
+    
+}
+
+
+
 /*Screen Sizes 700px-1100px.  About tablet size*/
 @media(min-width: 641px) and (max-width: 1007px){
 
@@ -202,6 +238,22 @@ a.alphaLink:hover{
 
     .comics{
         font-size: 1.5rem;
+    }
+
+    .topButton{
+        position: fixed;
+        top: 16rem;
+        font-size: 1.2rem;
+    }
+
+    .c4{
+        display:flex;
+        flex-direction: row-reverse;
+        flex-basis: 100vw;
+        text-align: center;
+        margin-left: 2.3rem;
+
+        
     }
 }
 
@@ -296,7 +348,27 @@ a.alphaLink:hover{
         align-items: center;
         font-size: 1.5rem;
         text-align: center;
+        
     }
+
+    .topButton{
+        position: fixed;
+        top: 12rem;
+        font-size: 1.4rem;
+    }
+
+    .c4{
+        display:flex;
+        flex-direction: row-reverse;
+        flex-basis: 100vw;
+        text-align: center;
+        
+        margin: 3rem;
+        
+    }
+
+
+
 }
 
 

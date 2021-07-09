@@ -15,8 +15,8 @@ main{
     margin: auto;
     max-width: 1300px;
 }
-
 /*using flexbox*/
+
 .c1{
     display: flex;
     background-color: gold;
@@ -168,6 +168,7 @@ a.catLink:visited{
     padding: .5rem;
     margin: auto;
     margin-top: 1rem;
+
 }
 
 .galPic{
@@ -194,7 +195,11 @@ a.showName{
     color:red;
 }
 
+
+
+
 /*media queries*/
+
 
 /*Screen Sizes 700px-1100px.  About tablet size*/
 @media(min-width: 641px) and (max-width: 1007px){
@@ -382,6 +387,7 @@ a.showName{
     .galNavWrapper{
         position:fixed;
         top:15rem;
+        bottom: 15rem;
         left: 8.5rem;
     }
 
@@ -396,6 +402,7 @@ a.showName{
         left: 8.5rem;
 
     }
+
 }
 
 

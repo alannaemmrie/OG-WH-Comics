@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-
+<!--resizing website to be viewport aware. using flexbox! mobile first design.-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content = "ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--This links the file to the css stylesheet-->
     <link rel = "Stylesheet" type = "text/css" href = "css/publisherStyle.css"> 
     <title>Magazines</title>
 </head>
@@ -15,9 +16,9 @@
 
         <!--container 1-->
         <div class="c1"> <!--website header-->
-            <a class = "bannerLink" href = "index.html"> 
+            <a class = "bannerLink" href = "index.html" id = "landing">
             <div class="logo"> <!--logo in header. "box 1"-->
-                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo">
+                <img id = "logoPic" src = "Logo/bobman426-KHC13_1A.png" alt = "warthawg comics logo"> <!--add dimensions! in style?-->
             </div>
             </a>
 
@@ -29,7 +30,7 @@
         </div>
 
         <!--container 2-->
-        <div class="c2"> <!--container 2; contains nav bar, main text.-->
+        <div class="c2"> <!--container 2; contains nav bar, main text.  homepage will have three boxes-->
             <div class="box1"> <!--navbar-->
                 <a href="index.html" class="navBarLinks">Home</a> &nbsp;&nbsp;
                 <a href="Catalog.html" class="navBarLinks">Catalog</a> &nbsp;&nbsp;
@@ -79,14 +80,30 @@
 
             <!--This starts the catalog-->
 
-            <h2 class = "letter" id = "B">B</h2> <!--B-->
+            <h2 class = "letter" id = "A">A</h2> <!--A-->
 
             <div class = "seriesLog">
-                <h3 class = "seriesName">Blazing Combat</h3> <!--series name-->
+                <h3 class = "seriesName">Alter Ego</h3> <!--series name-->
                 <div class="comics">
-                    3	VF	 Warren<br>
+                    6	F/VF		<br>
+                    8	NM-		<br>
                 </div>
             </div>
+
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Amazing World of DC Comics</h3> <!--series name-->
+                <div class="comics">
+                    1	VF/NM		<br>
+                    5	VF/NM		<br>
+                    11	VF/NM		<br>
+                    12	VF/NM		<br>
+                    17	VF/NM		<br>
+                </div>
+            </div>
+
+            <h2 class = "letter" id = "B">B</h2> <!--B-->
+
+        
             <h2 class = "letter" id = "C">C</h2> <!--C-->
 
             <div class = "seriesLog">
@@ -118,6 +135,15 @@
                 </div>
             </div>
 
+            <div class = "seriesLog">
+                <h3 class = "seriesName">Creepy</h3> <!--series name-->
+                <div class="comics">
+                    1969 Annual	NM-		<br>
+                    1970 Annual	NM-		<br>
+                    1971 Annual	NM		<br>
+                </div>
+            </div>
+
             <h2 class = "letter" id = "D">D</h2> <!--D-->
 
             <div class = "seriesLog">
@@ -129,14 +155,16 @@
                     12	FN		<br>
                     21	VF/NM		<br>
                     25	NM		<br>
+                    28	FN	Bruce Lee C/S	<br>
                     30	VF/NM		<br>
                 </div>
             </div>
 
+
         <div class = "seriesLog">
-            <h3 class = "seriesName">Devilina</h3> <!--series name-->
+            <h3 class = "seriesName">Dracula Lives!</h3> <!--series name-->
             <div class="comics">
-                2	VF/NM		<br>
+                5	VF/NM		<br>
             </div>
         </div>
 
@@ -149,19 +177,26 @@
             </div>
         </div>
 
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Emergency (Charlton)</h3> <!--series name-->
+            <div class="comics">
+                1	VF/NM	Adams c/a	<br>
+                2	NM-	Adams c/a	<br>
+            </div>
+        </div>
+
             <h2 class = "letter" id = "F">F</h2> <!--F-->
 
             <div class = "seriesLog">
                 <h3 class = "seriesName">Famous Monsters</h3> <!--series name-->
                 <div class="comics">
-                    1	VG		<br>
+                    1	VG/F		<br>
                     11	VG/F		<br>
                     12	VG/F		<br>
                     12	CGC 5.5		<br>
                     14	VG/F		<br>
                     15	F/G	cpn out int	<br>
                     16	FN+		<br>
-                    18	VG		<br>
                     20	F/G		<br>
                     21	VG/F		<br>
                     34	VG/F		<br>
@@ -228,6 +263,14 @@
         </div> 
 
         <div class = "seriesLog">
+            <h3 class = "seriesName">Marvel Preview</h3> <!--series name-->
+            <div class="comics">
+                4	VG/F	1st Starlord	<br>
+                7	VG	1st Rocket Raccoon	<br>
+            </div>
+        </div> 
+
+        <div class = "seriesLog">
             <h3 class = "seriesName">Marvel Super Action</h3> <!--series name-->
             <div class="comics">
                 1	FN	Punisher	<br>
@@ -259,7 +302,10 @@
             <div class="comics">
                 1	VF/NM 1965	<br>
             </div>
-        </div> 
+        </div>
+        
+        <h2 class = "letter" id = "P">P</h2> <!--P-->
+
 
         <h2 class = "letter" id = "R">R</h2> <!--R-->
 
@@ -275,10 +321,26 @@
         <div class = "seriesLog">
             <h3 class = "seriesName">Savage Tales</h3> <!--series name-->
             <div class="comics">
+                1	VG	1st Man Thing	<br>
                 8	VF/NM	Ka-Zar	<br>
                 9	VF/NM	Ka-Zar	<br>
             </div>
-        </div>  
+        </div> 
+
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Slags Pals n Gals</h3> <!--series name-->
+            <div class="comics">
+                fanzine	<br>
+            </div>
+        </div> 
+        
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Spectacular Spider-Man</h3> <!--series name-->
+            <div class="comics">
+                1	F/VF	Marvel	<br>
+                2	F/VF	Marvel	<br>
+            </div>
+        </div> 
 
         <div class = "seriesLog">
             <h3 class = "seriesName">Squa Tront</h3> <!--series name-->
@@ -300,7 +362,6 @@
             <h3 class = "seriesName">Tales of the Killers</h3> <!--series name-->
             <div class="comics">
                 10	VF		<br>
-                11	VF		<br>
             </div>
         </div>
 
@@ -321,6 +382,14 @@
         </div>
 
         <div class = "seriesLog">
+            <h3 class = "seriesName">Thriller</h3> <!--series name-->
+            <div class="comics">
+                1	VG	1962	<br>
+                2	VG	Rare	<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
             <h3 class = "seriesName">Tiny Tim</h3> <!--series name-->
             <div class="comics">
                 1967	VF+		<br>
@@ -332,6 +401,7 @@
         <div class = "seriesLog">
             <h3 class = "seriesName">Vampirella</h3> <!--series name-->
             <div class="comics">
+                1	CGC 8.0		<br>
                 8	VG/F		<br>
                 9	FN+		<br>
                 17	NM-		<br>
@@ -346,8 +416,30 @@
                 113	CGC 8.5	Last Iss	<br>
             </div>
         </div> 
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Vampire Tales</h3> <!--series name-->
+            <div class="comics">
+                9	VF	Blade	<br>
+            </div>
+        </div>
 
         <h2 class = "letter" id = "W">W</h2> <!--W-->
+
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Warrior</h3> <!--series name-->
+            <div class="comics">
+                5	VG/F	Alan Moore	<br>
+                8	VG/F	Alan Moore	<br>
+                9	VG	Alan Moore	<br>
+            </div>
+        </div>
+
+        <div class = "seriesLog">
+            <h3 class = "seriesName">Weird Tales</h3> <!--series name-->
+            <div class="comics">
+                1974	VF		<br>
+            </div>
+        </div>
 
         <div class = "seriesLog">
             <h3 class = "seriesName">World Famous Creatures (1958)</h3> <!--series name-->
@@ -358,7 +450,43 @@
                 4	VG/F		<br>
             </div>
         </div>
-        </div> 
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div> <!--make sure you've pasted everything inside here!-->
+
+            
+
+        <div class="c4"> <!--top button-->
+            <a href = "#landing" class="topButton" >Top of Page</a>
+        </div>
+
     </main> 
 </body>
+
+
 </html>
